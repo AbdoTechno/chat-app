@@ -40,7 +40,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
               Image.asset("assets/Frame.png", width: 320, height: 324),
               InkWell(
                 onTap: () {
-                  context.go('/home');
+                  context.push('/home');
                 },
                 child: Container(
                   width: 333,
